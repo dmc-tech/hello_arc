@@ -11,6 +11,6 @@ spec:
     ref: master
   values:
     image:
-      repository: quay.io/kubernetes-ingress-controller/nginx-ingress-controller
-      tag: "0.31.1"
+      repository: https://kubernetes.github.io/ingress-nginx
+      tag: "3.11.1"
     replicaCount: 3
