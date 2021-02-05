@@ -13,4 +13,4 @@ spec:
     image:
       repository: https://kubernetes.github.io/ingress-nginx
       tag: "3.13.0"
-    replicaCount: 3
+    replicaCount: 4
