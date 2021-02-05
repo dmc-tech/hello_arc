@@ -1,13 +1,13 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: nginx-ingress
-  namespace: nginx
+  name: ingress-nginx
+  namespace: ingress-nginx
 spec:
-  releaseName: nginx-ingress
+  releaseName: ingress-nginx
   chart:
     git: https://github.com/dmc-tech/hello_arc.git
-    path: charts/nginx-ingress
+    path: charts/ingress-nginx
     ref: master
   values:
     controller:
