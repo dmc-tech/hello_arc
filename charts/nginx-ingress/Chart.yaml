@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: v2
 name: nginx-ingress
 version: 3.13.0
 appVersion: 0.41.2
